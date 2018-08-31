@@ -7,11 +7,11 @@ The objective of the churn prediction model is to predict the customers that are
 Data preparation for churn prediction starts with aggregating all available information about the customer. 
 The data that is obtained for predicting the churn is classified in the following categories:
 
-* **Transaction and billing data** such as the kind of services that are subscribed and average monthly bills.
-* **Demographic data** such as gender, education, and marital status.
-* **Behavior data** such as complaints data and price plan migration data.
-* **Usage data** such as the number of calls and the number of text messages sent.
- 
+* **PayTV Contract data** such as life of contract, region, profile box type, payment data
+* **Duration Behavior data** such as 
+* **Internet usage data** such as download/upload size
+* **Demographic data** 
+
  
 ## Project structure
  
