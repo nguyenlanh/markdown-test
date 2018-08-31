@@ -8,7 +8,7 @@ Data preparation for churn prediction starts with aggregating all available info
 The data that is obtained for predicting the churn is classified in the following categories:
 
 * **PayTV Contract data** such as life of contract, region, profile box type, payment data
-* **Duration Behavior data** such as 
+* **Duration Behavior data** such as duration by day, month, channel,..
 * **Internet usage data** such as download/upload size
 * **Demographic data** 
 
