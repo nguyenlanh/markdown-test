@@ -14,45 +14,31 @@ The data that is obtained for predicting the churn is classified in the followin
  
  
 ## Project structure
-```
-+-paytv-churn-prediction/
-  +-__init__.py
-  +-member-folder/
-  | +-__init__.py
-  | +-hieunt124/
-  | +-lanhnv3/
-  | | +-
-  +-production/
-    +-__init__.py
-    +-conf/
-    | +-__init__.py
-    | +-main_conf.py
-    | +-utils_conf.py
-    +-service/
-    | +-data/
-    | | +-__init__.py
-    | | +-gen_contract.py
-    | | +-gen_internet.py
-    | | +-gen_status_frequency.py
-    | +-main/
-    | | +-__init__.py
-    | | +-building_features.py
-    | | +-....
-
-```
+ 
 
 
 Folders:
-
-* **data** - this folder contains CSV file with customers' info. It is a copy of data from ZhouFang928's example.
-* **export** - this folder is for saving computing results (currently final model is stored there)
-* **R** - master scripts
-* **packages**
-    * **externalpackages** - dummy package to maintain 3rd party packages dependencies 
-    * **modelbuilder** - package that delivers funciton that builds GBM models 
-
+* **member_folder** 
+    * **hieunt124** 
+    * **lanhnv3** 
+    
+* **production** 
+    * **conf** 
+        * **main_config.py** 
+        * **utils_con.py**  
+    * **service**   
+        * **data**  
+        * **main**  
+            * **build_features.py**
+            * **train_model.py**
+            * **predict_model.py**
+    
+     
 
 
 ## References
 
 ## Authors
+
+- [hieunt124@fpt.com.vn](hieunt124@fpt.com.vn)
+- [lanhnv3@fpt.com.vn](lanhnv3@fpt.com.vn)
