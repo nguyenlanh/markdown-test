@@ -1,5 +1,4 @@
-# PAYTV Churn Prediction Project  
-<a href="https://github.com/shd101wyy/markdown-preview-enhanced/releases"><img src="https://img.shields.io/github/tag/shd101wyy/markdown-preview-enhanced.svg"></a>
+# PAYTV Churn Prediction Project   
 
 ## Overview
 The objective of the churn prediction model is to predict the customers that are likely to stop using PayTV service hrough the usage behavior.
